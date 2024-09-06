@@ -1,0 +1,5 @@
+tup=(2,6,8,2,1,5)
+temp=list(tup)
+temp.sort()
+tup=tuple(temp)
+print(tup)
